@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+.body-box{
+    display: flex;
+}
+
 .titulos{
     color: var(--text-color);
 }
@@ -36,7 +40,7 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: -50px;
-    border: 3px solid var(--text-color);
+    border: 3px solid var(--bg-techs);
 }
 
 .perfil-texto{
@@ -83,8 +87,6 @@ a{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .tecnologias .cards{
     width: 100%;
     height: 90%;
@@ -92,7 +94,8 @@ a{
     grid-template-columns: repeat(3, 1fr);
 }
 
-.tecnologias .card{
+.card{
+    color: black;
     width: 120px;
     height: 35px;
     border-radius: 6px;
@@ -103,7 +106,7 @@ a{
     align-items: center;
 }
 
-.tecnologias .align-card{
+.align-card{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,3 +168,4 @@ a{
     font-size: 15px;
     opacity: 0.8;
 }
+
