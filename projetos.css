@@ -51,8 +51,6 @@
     margin: 20px 0px;
     display: flex;
     flex-direction: column;
-    transition: opacity 5s;  
-    opacity: 1;
 } 
 
 .infos-projeto.active .infos-projeto-cont p{
@@ -69,9 +67,9 @@
 
 .infos-projeto.active .alinhar-cards{
     display: flex;
-    
 }
 
 .infos-projeto.active .alinhar-cards .card{
     margin: 0 8px;
 }
+
