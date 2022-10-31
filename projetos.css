@@ -51,7 +51,6 @@
     margin: 20px 0px;
     display: flex;
     flex-direction: column;
-    transition: moveToLeft 5s linear;
 } 
 
 .infos-projeto.active .infos-projeto-cont p{
@@ -114,6 +113,18 @@
             }
             .box-projetos .projetos:nth-child(2){
                 height: 120px;
+            }
+            .infos-projeto.active{
+                width: 290px;
+            }
+            .infos-projeto.active .infos-projeto-cont{
+                width: 290px;
+            } 
+            .projetos.active{
+                height: 360px;
+            }
+            .box-projetos .projetos:nth-child(2).active{
+                height: 410px;
             }
         }
     }
