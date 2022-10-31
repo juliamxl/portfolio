@@ -8,6 +8,9 @@ a{
 
 .body-box{
     display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .titulos{
@@ -181,6 +184,7 @@ a{
         width: 350px;
     }
     .tecnologias{
+
         width: 350px;
     }
     .experiencias{
@@ -188,6 +192,10 @@ a{
     }
     .educacao{
         width: 350px;
+    }
+    .tecnologias .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
