@@ -110,9 +110,10 @@
         @media (max-width: 700px){
             .projetos{
                 width: 350px;
+                height: 125px;
             }
             .box-projetos .projetos:nth-child(2){
-                height: 120px;
+                height: 135px;
             }
             .infos-projeto.active{
                 width: 290px;

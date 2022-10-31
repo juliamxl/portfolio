@@ -91,10 +91,11 @@ a{
 
 .tecnologias .cards{
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
 
 .card{
     color: black;
@@ -184,8 +185,11 @@ a{
         width: 350px;
     }
     .tecnologias{
-
+        height: 230px;
         width: 350px;
+    }
+    .align-card{
+
     }
     .experiencias{
         width: 350px;
@@ -195,6 +199,7 @@ a{
     }
     .tecnologias .cards{
         display: grid;
+        padding: 10px;
         grid-template-columns: repeat(2, 1fr);
     }
 
