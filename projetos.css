@@ -125,7 +125,7 @@
                 height: 360px;
             }
             .box-projetos .projetos:nth-child(2).active{
-                height: 450px;
+                height: 425px;
             }
         }
     }
