@@ -81,7 +81,7 @@
         gap: 8px;
     }
     .box-projetos .projetos:nth-child(2).active{
-        height: 325px;
+        height: 340px;
     }
     @media (max-width: 1020px){
         .body-box{
@@ -125,7 +125,7 @@
                 height: 360px;
             }
             .box-projetos .projetos:nth-child(2).active{
-                height: 410px;
+                height: 425px;
             }
         }
     }
