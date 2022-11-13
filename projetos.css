@@ -127,6 +127,9 @@
             .box-projetos .projetos:nth-child(2).active{
                 height: 425px;
             }
+            .box-projetos .projetos:nth-child(3).active{
+                height: 380px;
+            }
         }
     }
 }
