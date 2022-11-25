@@ -83,6 +83,12 @@
     .box-projetos .projetos:nth-child(2).active{
         height: 340px;
     }
+    .box-projetos .projetos:nth-child(3).active{
+        height: 320px;
+    }
+    .box-projetos .projetos:nth-child(4).active{
+        height: 300px;
+    }
     @media (max-width: 1020px){
         .body-box{
             flex-direction: column;
@@ -105,7 +111,13 @@
             grid-template-columns: repeat(2, 1fr);
         }
         .box-projetos .projetos:nth-child(2).active{
-            height: 370px;
+            height: 380px;
+        }
+        .box-projetos .projetos:nth-child(3).active{
+            height: 330px;
+        }
+        .box-projetos .projetos:nth-child(4).active{
+            height: 315px;
         }
         @media (max-width: 700px){
             .projetos{
@@ -128,7 +140,10 @@
                 height: 425px;
             }
             .box-projetos .projetos:nth-child(3).active{
-                height: 380px;
+                height: 370px;
+            }
+            .box-projetos .projetos:nth-child(4).active{
+                height: 370px;
             }
         }
     }

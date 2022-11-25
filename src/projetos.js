@@ -17,4 +17,10 @@ function showProject(botão){
         infosProjeto.classList.toggle("active")
         projetos.classList.toggle("active")
     }
+    else if(botão == "b4"){
+        const projetos = document.querySelector(".box-projetos .projetos:nth-child(4)")
+        const infosProjeto = document.querySelector(".box-projetos .projetos:nth-child(4) .infos-projeto")
+        infosProjeto.classList.toggle("active")
+        projetos.classList.toggle("active")
+    }
 }
